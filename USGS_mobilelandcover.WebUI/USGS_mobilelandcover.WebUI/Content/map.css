@@ -1,0 +1,188 @@
+﻿#map{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 55px;
+  margin-bottom: 65px;
+  z-index: 0;
+}
+
+.navbar{
+    background-color: #000000;
+    background-image: none;
+    z-index: 10000;
+    height: 55px;
+  }
+
+.container{
+ height: 30px;
+}
+
+#header-title{
+  font-size: 24px;
+  color: #ffffff;
+  text-indent: 8px;
+}
+
+#layer-button{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+#layer-control{
+  position: absolute;
+  top: 50px;
+  height: 140px;
+  width: 170px;
+  left: 0;
+  z-index: 10000;
+  background-color: #000000;
+  display: none;
+}
+
+#map-change {
+  color: #ffffff;
+  width: 146px;
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.drawer-open{
+  height: 100%;
+}
+
+.drawer-closed{
+  height: 65px;
+}
+
+.drawer-closed #text-filler{
+  display: none;
+}
+
+#info-drawer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #808080;
+  z-index: 10000;
+  -moz-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+
+#landcoverName{
+  position: relative;
+  background-color: #684d22;
+  width: 100%;
+  height: 64px;
+  bottom: 0px;
+  color: #ffffff;
+  font-size: larger;
+  text-align: center;
+  border:  inset #684d22 thin;
+}
+
+#info-linkUp{
+  position: absolute;
+  right: 25px;
+  bottom: 40px;
+  z-index: 10009;
+  -moz-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+
+#info-linkDown{
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+  z-index: 10009;
+  -moz-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+
+
+#text-filler{
+  width: 100%;
+  color: #ffffff;
+  font-size: larger;
+  text-align: center;
+}
+
+#centerReticle{
+  position: absolute;
+  z-index: 120000;
+  left: 50%;
+  top: 50%;
+  margin-top: -40px;
+  margin-left: -40px;
+}
+
+#name{
+  position: relative;
+  top: 15px;
+  font-weight: 900;
+}
+
+.glyphicon{
+  color: #000000;
+}
+
+/*GPS location ----------*/
+
+.leaflet-container .leaflet-control-gps {
+  position: relative;
+  right: 5px;
+	background:#fff;
+	color:#1978cf;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+/*	padding:5px;*/
+	border: 1px solid #888;
+	/*background-color: rgba(0, 0, 0, 0.25);*/
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index:1000;	
+	box-shadow: 0 0 8px rgba(0,0,0,0.4);
+	margin-left: 13px;
+	margin-top: 12px;
+}
+.leaflet-control-gps .gps-button {
+  position: relative;
+	display:block;
+	float:right;
+	width:22px;
+	height:22px;
+	background: url(images/gps-icon.png) no-repeat 1px 1px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius:4px;
+}
+.leaflet-control-gps .gps-button:hover,
+.leaflet-control-gps .gps-button.active:hover {
+	background: url(images/gps-icon.png) no-repeat 1px -21px;
+}
+.leaflet-control-gps .gps-button.active {
+	background: url(images/gps-icon.png) no-repeat 1px -43px;
+}
+
+.leaflet-control-gps .gps-alert {
+	position:absolute;
+	top:24px;
+	width:100px;
+	padding:2px;
+	line-height:.95em;
+	color:#e00;
+	border: 1px solid #888;	
+	background-color: rgba(255, 255, 255, 0.75);
+	border-radius:4px;
+}

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USGS_mobilelandcover.WebUI", "USGS_mobilelandcover.WebUI\USGS_mobilelandcover.WebUI.csproj", "{B4B6B599-2850-46A4-A1EF-88C4556E624F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USGS_mobilelandcover.DataModel", "USGS_mobilelandcover.DataModel\USGS_mobilelandcover.DataModel.csproj", "{DBDF907D-F881-4008-B57D-7BE53ACF3568}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4B6B599-2850-46A4-A1EF-88C4556E624F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B6B599-2850-46A4-A1EF-88C4556E624F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B6B599-2850-46A4-A1EF-88C4556E624F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B6B599-2850-46A4-A1EF-88C4556E624F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDF907D-F881-4008-B57D-7BE53ACF3568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDF907D-F881-4008-B57D-7BE53ACF3568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDF907D-F881-4008-B57D-7BE53ACF3568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDF907D-F881-4008-B57D-7BE53ACF3568}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

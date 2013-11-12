@@ -1,0 +1,40 @@
+﻿@{
+  Bundles.Reference("content");
+  Bundles.Reference("scripts");
+  }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   @Bundles.RenderStylesheets()
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="page-header">
+        <h1>@ViewBag.Title<small> @ViewBag.SubTitle</small></h1>
+      </div>
+    </header>
+    @RenderBody()
+  </div>
+
+  <script type="text/javascript">
+    var App = {
+      GetRelativeUrl: function (path) { return '@Url.Content("~/")' + (path || ""); }
+    };
+  </script>
+
+  @Bundles.RenderScripts()
+
+</body>
+</html>
+

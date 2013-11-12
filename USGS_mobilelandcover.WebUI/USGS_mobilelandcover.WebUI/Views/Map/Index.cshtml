@@ -1,0 +1,40 @@
+﻿<div id="map">
+  <img id="centerReticle" src="~/Content/images/reticle.png" />
+</div>
+
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img src="~/Content/images/header.jpg" /><label id="header-title">Land Cover</label></a>
+    </div>
+    <a href="#" id="layer-button">
+      <img src="~/Content/images/bars.png" /></a>
+    <div id="layer-control">
+      <div id="map-change" data-toggle="buttons-radio">
+        <a href="#landCover" id="landcover" class="btn-warning btn btn-block" data-toggle="tab">Land Cover</a>
+        <a href="#basemap" id="basemap" class="btn-warning btn btn-block" data-toggle="tab">Street Map</a>
+        <a href="#ortho" id="ortho" class="btn-warning btn btn-block" data-toggle="tab">Aerial Photo</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="info-drawer" class="drawer-closed">
+@*  <a href="#" id="info-linkUp"><i class="glyphicon glyphicon-chevron-up"></i></a>
+  <a href="#" id="info-linkDown"><i class="glyphicon glyphicon-chevron-down"></i></a>*@
+  <div id="landcoverName">
+    <span id="name"></span>
+  </div>
+  <div id="text-filler">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+    mollit anim id est laborum.
+    </p>
+  </div>
+</div>
